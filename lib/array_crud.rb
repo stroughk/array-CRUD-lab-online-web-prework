@@ -1,17 +1,17 @@
 def create_an_empty_array
-  create_an_empty_array[]
+  []
 end
 
 def create_an_array
-  puts create_an_array["one","two","three"]
+  puts create_an_array["one","two","three","four"]
 end
 
 def add_element_to_end_of_array(array, element)
-  puts add_element_to_end_of_array.push("four") 
+  puts add_element_to_end_of_array.push("five") 
 end
 
 def add_element_to_start_of_array(array, element)
-  puts add_element_to_start_of_array.unshift("six")
+  puts add_element_to_start_of_array.unshift("zero")
 end
 
 def remove_element_from_end_of_array(array)
@@ -19,7 +19,7 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  puts remove_element_from_start_of_array.shift()
+  puts remove_element_from_start_of_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
